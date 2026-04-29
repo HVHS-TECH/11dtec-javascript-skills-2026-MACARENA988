@@ -21,15 +21,10 @@ Main code:
 ****************************/
 
 console.log("Hi " + userName)
-
 console.log("As of "+ currentYear + " you are " + userAge + " years old")
-
 console.log("You were born in ", currentYear - userAge)
-
 console.log("You have " + userMoney + " dollars")
-
 console.log("You spend half of your money, now you have ", userMoney /2)
-
 console.log("Then you get $3, now you have ", userMoney/2 + 3)
 
 /****************************
