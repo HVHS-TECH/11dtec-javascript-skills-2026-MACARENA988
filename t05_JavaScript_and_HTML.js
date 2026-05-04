@@ -27,7 +27,7 @@ Main code:
 ****************************/
 OUTPUT.innerHTML = "<p>Hi " + userName;
 OUTPUT.innerHTML +="<p>As of "+ currentYear + " you are " + userAge + " years old";
-let yearBorn = currentYear - userAge; 
+let yearBorn = currentYear - userAge;
 OUTPUT.innerHTML += "<p>You were born in " + yearBorn ;
 OUTPUT.innerHTML +="<p>You have " + userMoney + " dollars";
 OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + divideTwo;
