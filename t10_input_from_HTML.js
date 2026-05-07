@@ -25,16 +25,17 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main code:
 ****************************/
+
+function start() {
+
+welcome()  
+
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let userName = NAME_FIELD.value;
     OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
   }
-
-function start() {
-    
-welcome()  
-
+  
 displayProduct("Chips", 3);
 displayProduct("Chocolate bar", 4);
 displayProduct("Drink", 2.50);
