@@ -30,12 +30,7 @@ function start() {
 
 welcome()  
 
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-  }
-  
+
 displayProduct("Chips", 3);
 displayProduct("Chocolate bar", 4);
 displayProduct("Drink", 2.50);
@@ -64,4 +59,8 @@ function displayProduct(_name, _price){
   }
 
 
-  
+  function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+  }
