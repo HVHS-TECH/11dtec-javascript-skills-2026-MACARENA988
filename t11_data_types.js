@@ -60,7 +60,11 @@ function displayProduct(_name, _price){
 
 
 function getFormInput(){
+    const MONEY_FIELD = document.getElementById("moneyField");
+    let userMoney = Number(MONEY_FIELD.value);
     const AGE_FIELD = document.getElementById("ageField");
     let userAge = AGE_FIELD.value;
-    OUTPUT.innerHTML = "<p>Age: "+userAge+"</p>";
-  }
+    OUTPUT.innerHTML = "<p>You are "+userAge+" years old.</p>";
+    OUTPUT.innerHTML += "<p>You have "+userMoney+".</p>";
+}
+
